@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PriceSense — Amazon vs Flipkart Price Compare</title>
+<meta name="description" content="PriceSense compares the same item on Amazon.in and Flipkart, tracks price history and tells you if today's sale price is truly the lowest.">
+<meta property="og:title" content="PriceSense — Sale on? Know if it's really the lowest.">
+<meta property="og:description" content="Compare the same item on Amazon.in and Flipkart, see the price history and spot fake discounts before you pay.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://neelukosuri.github.io/pricesense/icon128.png">
+<link rel="canonical" href="https://neelukosuri.github.io/pricesense/">
+<link rel="icon" type="image/png" sizes="32x32" href="icon32.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="./"><img src="icon128.png" alt="">PriceSense</a>
+    <nav class="links" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#sales">Sale season</a>
+      <a href="#how">How it works</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <span class="eyebrow">For Amazon.in &amp; Flipkart shoppers</span>
+        <h1>Sale on? Know if it’s really the lowest.</h1>
+        <p class="lead">PriceSense finds the exact same item on Amazon.in and Flipkart, shows both prices side by side, and tells you whether today’s price is genuinely the lowest — or a “deal” that isn’t one.</p>
+        <div class="cta">
+          <span class="btn soon" title="Launching soon">Chrome &amp; Edge extension — <b>coming soon</b></span>
+          <a class="btn primary" href="#how">See how it works</a>
+        </div>
+        <p class="trust">Free · No sign-up · Your data stays in your browser</p>
+      </div>
+
+      <div class="mock" role="img" aria-label="Example of the PriceSense panel comparing one item across two stores">
+        <div class="bar"><img src="icon32.png" alt="" width="20" height="20">PriceSense <small>example</small></div>
+        <div class="body">
+          <div class="mcard verdict"><b>Good price on Flipkart — close to its recent low</b><br><span style="color:var(--muted)">Flipkart is ₹6,901 cheaper for the same item. It has sold for ₹64,999 before.</span></div>
+          <div class="mcard">
+            <h4>Side by side · Smartphone, 128 GB, Black</h4>
+            <div class="mrow"><span class="store fk">Flipkart</span><span class="price">₹67,999</span><span class="tag">CHEAPEST</span></div>
+            <div class="mrow"><span class="store amz">Amazon</span><span class="price">₹74,900</span><span class="chip">Exact match</span></div>
+          </div>
+          <div class="mcard">
+            <h4>Price history</h4>
+            <svg viewBox="0 0 320 90" aria-hidden="true">
+              <line x1="0" y1="78" x2="320" y2="78" stroke="currentColor" stroke-opacity=".12"/>
+              <line x1="0" y1="70" x2="320" y2="70" style="stroke:var(--great)" stroke-dasharray="4 3"/>
+              <path d="M0 40 H70 V70 H84 V40 H200 V56 H252 V38 H320" fill="none" style="stroke:var(--flipkart)" stroke-width="2.5"/>
+              <path d="M0 12 H110 V30 H320" fill="none" style="stroke:var(--amazon)" stroke-width="2.5"/>
+              <circle cx="316" cy="38" r="4" style="fill:var(--flipkart)"/><circle cx="316" cy="30" r="4" style="fill:var(--amazon)"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="features" class="alt">
+    <div class="wrap">
+      <h2>Two stores. One item. The real lowest price.</h2>
+      <p class="sub">PriceSense does the checking you would do yourself — opening both stores, matching the exact variant and remembering what it cost last month — automatically, on the page you are already looking at.</p>
+      <div class="grid">
+        <div class="feature"><div class="ico">🎯</div><h3>Exact-item matching</h3><p>Brand, model number, edition (Pro, Plus, Max), RAM and storage, size, weight, pack size and flavour must all agree. Phone cases, combo packs and warranty bundles are never mistaken for the item.</p></div>
+        <div class="feature"><div class="ico">⚖️</div><h3>Side-by-side prices</h3><p>The price on Amazon.in and on Flipkart for the same item, including the member prices your own account sees.</p></div>
+        <div class="feature"><div class="ico">📈</div><h3>True-lowest verdict</h3><p>Today’s price against its all-time low, 90-day low and usual price — so you know whether to buy now or wait.</p></div>
+        <div class="feature"><div class="ico">🚩</div><h3>Fake-discount alerts</h3><p>Flags prices that were raised just before a sale, and shows the real discount against the usual price, not just the MRP.</p></div>
+        <div class="feature"><div class="ico">🔎</div><h3>Search in plain words</h3><p>“running shoes men under 3000”, “atta 10 kg”, “i5 14th gen 16GB 512GB” — budgets and specs are understood.</p></div>
+        <div class="feature"><div class="ico">🔔</div><h3>Price-drop watchlist</h3><p>Set a target price and get a notification when an item on your watchlist reaches it.</p></div>
+      </div>
+      <p class="note">Works for every kind of product: electronics, groceries, fashion and footwear, appliances, beauty, health, books, toys, home and more.</p>
+    </div>
+  </section>
+
+  <section id="sales">
+    <div class="wrap sale">
+      <div>
+        <h2>Made for sale season</h2>
+        <p class="sub">Shopping Flipkart’s Big Billion Days, Amazon’s Great Indian Festival, Republic Day and Independence Day sales, Diwali offers or a weekend flash sale? Every banner promises the best price. PriceSense shows you:</p>
+        <ul class="checks">
+          <li>which store is actually cheaper for the same item right now;</li>
+          <li>whether the sale price is the lowest it has been, or just its normal price;</li>
+          <li>when a price was pushed up shortly before the sale so the “discount” looks bigger;</li>
+          <li>how the MRP discount compares with the real discount against the usual price.</li>
+        </ul>
+        <p class="note">Tip: add items to your watchlist before a sale starts and get alerted when they hit your target price.</p>
+      </div>
+      <div class="slogans" aria-label="PriceSense slogans">
+        <div>Every sale says “lowest price”. PriceSense checks.</div>
+        <div>Big sale? Check before you buy.</div>
+        <div>Don’t just shop the sale — shop the real lowest price.</div>
+        <div>Spot the fake discount before you pay.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="alt">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="sub">Install once, then keep shopping the way you already do.</p>
+      <div class="steps">
+        <div class="step"><h3>Open any product</h3><p>Browse Amazon.in or Flipkart as usual. The PriceSense panel opens beside the product.</p></div>
+        <div class="step"><h3>See the comparison</h3><p>PriceSense finds the same item on the other store, checks its specifications and compares the prices and price history.</p></div>
+        <div class="step"><h3>Buy at the real lowest</h3><p>Click through to the cheaper listing — or set a target price and wait for the drop.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details class="faq"><summary>Is PriceSense free?</summary><p>Yes. There is no sign-up and nothing to pay.</p></details>
+      <details class="faq"><summary>How does PriceSense make money?</summary><p>When PriceSense finds a cheaper price on the other store and you click through to it from the panel, that link may include the developer’s affiliate tag. If you then buy something, the developer may earn a small commission from the store, at no extra cost to you. Only links to a cheaper price on the other store are ever tagged, and PriceSense never changes the page you are browsing or redirects you automatically.</p></details>
+      <details class="faq"><summary>What happens to my data?</summary><p>Price history, your watchlist and settings are stored only in your own browser. Nothing is sent to the developer. Read the <a href="privacy-policy.html">privacy policy</a>.</p></details>
+      <details class="faq"><summary>Do I need to share my Amazon or Flipkart password?</summary><p>Never. You sign in on the official Amazon and Flipkart pages as you normally do; PriceSense never sees or stores your password.</p></details>
+      <details class="faq"><summary>Which browsers are supported?</summary><p>Google Chrome and Microsoft Edge on desktop. The extension is launching soon on the Chrome Web Store and Edge Add-ons.</p></details>
+      <details class="faq"><summary>Is PriceSense part of Amazon or Flipkart?</summary><p>No. PriceSense is an independent tool and is not affiliated with, endorsed by or sponsored by Amazon or Flipkart.</p></details>
+    </div>
+  </section>
+
+  <section id="contact" class="alt">
+    <div class="wrap">
+      <div class="contact">
+        <div>
+          <h2>Business enquiries</h2>
+          <p>PriceSense is developed by <b>VNSR Kosuri</b>. For partnerships and business enquiries, contact on WhatsApp only.</p>
+        </div>
+        <a class="btn wa" href="https://wa.me/919848827272?text=Hello%2C%20I%20am%20contacting%20you%20about%20PriceSense%20(business%20enquiry)." target="_blank" rel="noopener">💬 WhatsApp +91 98488 27272</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2026 VNSR Kosuri · <a href="privacy-policy.html">Privacy policy</a></div>
+    <div>Affiliate disclosure: As an Amazon Associate I earn from qualifying purchases. PriceSense may also earn from qualifying purchases through the Flipkart Affiliate programme.</div>
+    <div>PriceSense is an independent tool and is not affiliated with, endorsed by or sponsored by Amazon or Flipkart. Amazon, Great Indian Festival, Flipkart and Big Billion Days are trademarks of their respective owners. Prices and availability are set by the stores and can change at any time.</div>
+  </div>
+</footer>
+
+</body>
+</html>
